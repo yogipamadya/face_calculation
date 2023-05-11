@@ -7,7 +7,7 @@ from PIL import Image
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 # Load dlib's face landmarks detector
-predictor_path = "shape_predictor_68_face_landmarks.dat"
+predictor_path = "https://github.com/Franky1/Face-Averaging-App/blob/main/shape_predictor_68_face_landmarks.dat"
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(predictor_path)
 
